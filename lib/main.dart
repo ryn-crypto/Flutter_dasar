@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'columnt.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(Colum());
 
 // stl enter untuk membuat myApp class
 class MyApp extends StatelessWidget {
@@ -10,18 +11,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-      appBar: AppBar(title: Text("Dasar Flutter")),
-      body: Center(
-          child: Container(
-              color: Colors.lightBlue,
-              width: 150,
-              height: 50,
-              child: Text(
-                'Latihan untuk Flutter, dengan belajar dasar dasarnya',
-                textAlign: TextAlign.center,
-                style:
-                    TextStyle(color: Colors.white, fontStyle: FontStyle.italic),
-              )))
-    ));
+            appBar: AppBar(title: Text("Dasar Flutter")),
+            body: Center(
+                child: Container(
+                    color: Colors.lightBlue,
+                    width: 150,
+                    height: 50,
+                    child: Text(
+                      'Hallo selamat datang di flutter',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                          color: Colors.white, fontStyle: FontStyle.italic),
+                    )))));
   }
 }
