@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'columnt.dart';
 
-void main() => runApp(Colum());
+void main() => runApp(CoRo());
 
 // stl enter untuk membuat myApp class
 class MyApp extends StatelessWidget {
