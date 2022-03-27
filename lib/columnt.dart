@@ -48,8 +48,10 @@ class CoRo extends StatelessWidget {
         home: Scaffold(
             appBar: AppBar(title: Text("Dasar Flutter")),
             body: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment:
+                  MainAxisAlignment.center, //mengatu secara vertikal
+              crossAxisAlignment:
+                  CrossAxisAlignment.start, //mengatu secara horizontal
               children: <Widget>[
                 Text('Text 1'),
                 Text('Text 2'),

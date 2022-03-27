@@ -1,7 +1,8 @@
+import 'package:dasar_flutter/container.dart';
 import 'package:flutter/material.dart';
 import 'columnt.dart';
 
-void main() => runApp(CoRo());
+void main() => runApp(Contain());
 
 // stl enter untuk membuat myApp class
 class MyApp extends StatelessWidget {
