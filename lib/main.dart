@@ -1,8 +1,11 @@
-import 'package:dasar_flutter/container.dart';
-import 'package:flutter/material.dart';
-import 'columnt.dart';
+import 'package:flutter/material.dart'; // material app <-- harus ada
 
-void main() => runApp(Contain());
+// package dari modulasi
+import 'package:dasar_flutter/container.dart'; // test container
+import 'columnt.dart'; // column
+import 'stateful.dart'; //stateful
+
+void main() => runApp(Estate());
 
 // stl enter untuk membuat myApp class
 class MyApp extends StatelessWidget {
