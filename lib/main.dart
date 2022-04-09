@@ -4,7 +4,8 @@ import 'package:flutter/material.dart'; // material app <-- harus ada
 // import 'package:dasar_flutter/container.dart'; // test container
 // import 'columnt.dart'; // column
 // import 'stateful.dart'; //stateful
-import 'package:dasar_flutter/text.dart';
+// import 'package:dasar_flutter/text.dart';
+import 'package:dasar_flutter/card.dart';
 
 void main() => runApp(const MyApp());
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Tetx(),
+      home: Cards(),
     );
   }
 }
